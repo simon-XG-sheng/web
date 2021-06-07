@@ -1,0 +1,164 @@
+#website{
+  width:1000px;
+  margin:0px auto 10px;
+  padding:2em;
+  box-sizing:border-box;
+}
+
+.picture{
+  float:left;
+  width: 28%;
+  margin: 10px 50px 10px 20px;
+}
+
+
+.logo {
+float: right;
+width: 10%;
+margin: 10px 15px 10px;
+}
+
+.contact{
+  float:left;
+  width: 70%;
+  }
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+/*  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row {
+  display: flex;
+}
+
+
+.column2of2 {
+float: left;
+width: 620px
+margin: 20px;
+}
+
+.button {
+       background-color: slateblue;
+       border: none;
+       color: black;
+       padding: 10px 20px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 15px;
+       margin: 4px 2px;
+       cursor: pointer;
+ }
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.5;
+}
+
+.menu {
+  overflow: hidden;
+  display: flex;
+  position: fixed;
+  left:auto;
+  top: 2%;
+  width:950px;
+  margin-top: -1em;
+}
+
+nav{
+margin: 0 auto;
+text-align: center;
+/*left:10%
+top:10%
+overflow:hidden;*/
+color:#283747;
+background-color:#F9F6F5;
+}
+
+nav ul{
+margin: 0px;
+padding: 0px 0px 0px 0px;
+text-align:center;
+}
+
+nav li{
+  display: inline;
+  margin-left:10px;
+  margin-right:10px;
+  text-align:center;
+}
+
+nav li a{
+text-decoration: none;
+color: red;
+}
+
+
+/* unvisited link */
+a:link {
+  color: #0D2166;
+  text-decoration: none;
+
+}
+
+/* visited link */
+a:visited {
+  color: #0D2166;
+}
+
+/* mouse over link */
+a:hover {
+  color: #CF6534;
+}
+
+/* selected link */
+a:active {
+  color: #0D2166;
+}
+
+.cv{
+  float:left;
+  width:33%
+}
+
+.email {
+  float:left;
+  width:33%
+}
+
+.contact{
+  float:left;
+  width:34%
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+
+tr.noBorder td {
+  border: 0;
+}
+
+/*Definition list*/
+/*dd {
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 2em;
+  margin-left: 0;
+  margin-right: 0;
+}
+*/
