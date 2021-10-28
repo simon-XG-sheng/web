@@ -26,6 +26,24 @@
 			li a:hover {
 			  background-color: #111;
 			}
+			* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 		</style>
 	</head>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -68,7 +86,7 @@
 						<div class = "picture">
    							<p><center><img src = "images/Dingqian.png" height = 280/> </p>
 						</div>
-				</div>
+			        	</div>
 
 					<div class="column">
 						<div class = "contact">
@@ -92,7 +110,7 @@
 				</center>-->
 
 			<hr>
-			<h3> What's New </h3>
+			<h2> What's New </h3>
 			&#x25cf;Forthcoming, IMF Economic Review: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3714028" target="_blank">Stock Prices and Economic Activity in the Time of Coronavirus </a>  <br>
 			<a href="replication package_latest.zip" download> Replication Package </a><br>				
 			&#x25cf;  JMP (update on Oct. 26, 2021): <a href ="JMP version.pdf" target="_blank"> Manager Attention and Leverage Dynamics </a>  <br>
