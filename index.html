@@ -5,13 +5,7 @@
 
 	<head>
 		<style>
-			ul {
-			  list-style-type: none;
-			  margin: 0;
-			  padding: 0;
-			  overflow: hidden;
-			  background-color: #D6EAF8;
-			}
+			
 /* Change the color of links on hover */
 			.topnav a:hover {
 			  background-color: #ddd;
@@ -23,50 +17,55 @@
 			  background-color: #04AA6D;
 			  color: white;
 			}
-			li {
-			  float: left;
+					<!-- Navigator Buttons -->
+		/* Add a black background color to the top navigation */
+			.topnav {
+			  position: relative;
+			  background-color: #D6EAF8;
+			  overflow: hidden;
 			}
 
-			li a {
-			  display: block;
-			  color: #17202A;
+			/* Style the links inside the navigation bar */
+			.topnav a {
+			  float: left;
+			  color: #ADD8E6;
 			  text-align: center;
 			  padding: 14px 16px;
 			  text-decoration: none;
+			  font-size: 17px;
 			}
 
-			li a:hover {
-			  background-color: #AED6F1;
+
+
+			/* Centered section inside the top navigation */
+			.topnav-centered a {
+			  float: none;
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
 			}
-			* {
-  box-sizing: border-box;
-}
+						* {
+			  box-sizing: border-box;
+			}
 
-/* Create two equal columns that floats next to each other */
-.column {
-  float: center;
-  width: 50%;
-  padding: 20px;
-  height: 450px; /* Should be removed. Only for demonstration */
-}
+			/* Create two equal columns that floats next to each other */
+			.column {
+			  float: center;
+			  width: 50%;
+			  padding: 20px;
+			  height: 450px; /* Should be removed. Only for demonstration */
+			}
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+			/* Clear floats after the columns */
+			.row:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
 		</style>
 	</head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163646272-1"></script>
-		<script> 
-  	window.dataLayer = window.dataLayer || [];
-  	function gtag(){dataLayer.push(arguments);}
-  	gtag('js', new Date());
-
-  	gtag('config', 'UA-163646272-1');
-		</script>
+		
 		<meta charset=“UTF-8”>
 		<title> Xuguang Sheng</title>
 		<link href = "/CSS/style.css" type="text/css" rel="stylesheet"/>
@@ -75,34 +74,7 @@
 
 
 	<body>
-		<!-- Navigator Buttons -->
-		/* Add a black background color to the top navigation */
-.topnav {
-  position: relative;
-  background-color: #D6EAF8;
-  overflow: hidden;
-}
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #ADD8E6;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-
-
-/* Centered section inside the top navigation */
-.topnav-centered a {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 		<div class="topnav">
 			<div class="topnav-centered">
 					<a href ="Sheng_CV.pdf"><b><font size=5>C.V.</b></a>
@@ -250,12 +222,12 @@
 			<h2> Working Papers </h2>
 			
 						&bull;<a href ="working paper/Paper 24_Disagreement in consumer inflation expectations.pdf"> Disagreement in Consumer Inflation Expectations, </a>  with Tomasz Lyziak.
-										<br> 
+										<br> <br> 
 
 						&bull; <a href ="working paper/Paper 25_Inattention and the impact of monetary policy.pdf"> Inattention and the Impact of Monetary Policy, </a> with Zidong An and Salem Abo-Zaid. 
 										<br> <br> 
 
-						&bull; <a href ="working paper/Paper 26_Health Shocks.pdf"> Health Shocks in a General Equilibrium Model, </a> with Salem Abo-Zaid. <br>
+						&bull; <a href ="working paper/Paper 26_Health Shocks.pdf"> Health Shocks in a General Equilibrium Model, </a> with Salem Abo-Zaid. 
                        							<br> <br> 
 
 						&bull; <a href ="working paper/Paper 27_Firms' perspective on inflation.pdf"> Unit Cost Expectations and Uncertainty: Firms' Perspectives on Inflation, </a> with Brent H. Meyer and Nicholas B. Parker. 	
