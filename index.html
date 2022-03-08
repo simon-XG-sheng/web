@@ -32,19 +32,6 @@
 			*{
 			box-sizing: border-box;
 			}
-			
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-} 
 
 		</style>
 	</head>
@@ -77,12 +64,12 @@
 
 				
 				<div class="row">
-					<div class="column">
+					<div class="column" style="width: 50%; float:left">
 						<div class = "picture">
-   							<p><center><img src = "D22_147_003ar.jpg" height = 380/> </p>
+   							<p><left><img src = "D22_147_003ar.jpg" height = 380/> </p>
 						</div> 
 			        	</div>
- <div class="column" style="background-color:#bbb;">
+ <div class="column" style="width: 50%; float:right">
     <h2>Column 2</h2>
     <p>Some text..</p>
   </div>
