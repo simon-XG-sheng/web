@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 
 <html>
-
-
 	<head>
 		<style>
 						
@@ -49,6 +47,21 @@ margin-top: 100px;
 padding-top: 10; 
 			}
 			
+			#deals {
+  display: flex;        /* Flex layout so items have equal height  */
+  flex-flow: row wrap;  /* Allow items to wrap into multiple lines */
+}
+.sale-item {
+  display: flex;        /* Lay out each item using flex layout */
+  flex-flow: column;    /* Lay out item’s contents vertically  */
+}
+.sale-item > img {
+  order: -1;            /* Shift image before other content (in visual order) */
+  align-self: center;   /* Center the image cross-wise (horizontally)         */
+}
+.sale-item > button {
+  margin-top: auto;     /* Auto top margin pushes button to bottom */
+}
 			
 		</style>
 	</head>
@@ -82,43 +95,35 @@ padding-top: 10;
 				
 
 				
-				<div class="row">
-					<div class="column", style="width: 50%; float:left">
-						<div class = "picture" >
+				<div id="deals">
+					<div class="sale-item">
+						
 							<p> <img src = "D22_147_003ar.jpg" height = 400 /> </p> 
-						</div> 
+						
 			        	</div>
  					
-					<div class="column" style="width: 50%; float:right"> 
-						<div class="column">
+					<div class="sale-item"> 
+						
 							<br><br>
 						<p style="font-family:verdana;"><left><font size=7>Xuguang Simon Sheng </font> </p>
 							<left><font size=5>Associate Professor</br>
-								<left><font size=5>Department of Economics</br>
-									<left><font size=5>American University</br>
-											<left><font size=5>4400 Massachusetts Ave., N.W.</br>
-												<left><font size=5>Washington, DC 20016-8029</br>
-													<left><font size=5>sheng@american.edu
+							<left><font size=5>Department of Economics</br>
+							<left><font size=5>American University</br>
+							<left><font size=5>4400 Massachusetts Ave., N.W.</br>
+							<left><font size=5>Washington, DC 20016-8029</br>
+							<left><font size=5>sheng@american.edu
 								
-								</div> 
-						<div> 		
-
-								
-						<div class = "contact", style= "text-align: left">
 							<br>
 										
-							<left><p> Xuguang Simon Sheng is an Associate Professor of Economics at American University. His research interests include time series econometrics, monetary policy, fiscal policy and business cycles. 
-								</p> 
-								<p> He has published in Journal of Econometrics, Review of Economics and Statistics, Journal of International Monetary and Finance, Journal of Accounting and Economics, and Oxford Handbook on Economic Forecasting. 
-								</p> 
-								<p> He has received Isaac Kerstenetzky Award from Fundação Getulio Vargas (FGV) of Brazil in 2021 and Heinz König Young Scholar Award from Centre for European Economic Research (ZEW) of Germany in 2010. He has served as an associate editor for <a href ="https://www.journals.elsevier.com/international-journal-of-forecasting"> International Journal of Forecasting</a> and <a href ="https://academic.oup.com/ooec"> Oxford Open Economics</a>, and a co-organizer of six international conferences.</p>
+						<left><p> Xuguang Simon Sheng is an Associate Professor of Economics at American University. His research interests include time series econometrics, monetary policy, fiscal policy and business cycles.</p> 
+						<p> He has published in Journal of Econometrics, Review of Economics and Statistics, Journal of International Monetary and Finance, Journal of Accounting and Economics, and the Oxford Handbook on Economic Forecasting. </p> 
+						<p> He has received Isaac Kerstenetzky Award from Fundação Getulio Vargas (FGV) of Brazil in 2021 and Heinz König Young Scholar Award from Centre for European Economic Research (ZEW) of Germany in 2010. He has served as an associate editor for <a href ="https://www.journals.elsevier.com/international-journal-of-forecasting"> International Journal of Forecasting</a> and <a href ="https://academic.oup.com/ooec"> Oxford Open Economics</a>, and a co-organizer of six international conferences.</p>
 								 </p> 		
-						</div>
+					</div>
 								
 						<!-- </div> -->
 			
-					</div>
-                                </div>
+				</div>
 
 	
 						
