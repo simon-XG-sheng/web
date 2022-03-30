@@ -56,8 +56,17 @@ padding-top: 10;
   flex-direction: row;
   flex-flow: column;    /* Lay out item’s contents vertically  */
 }
+			
+.sale-item-left {
+   padding: 10px;
+  flex: 50%;
+}
+
+.sale-item-right {
+  padding: 10px;
+  flex: 50%;
+}			
 .sale-item > img {
-  order: -1;            /* Shift image before other content (in visual order) */
   align-self: center;   /* Center the image cross-wise (horizontally)         */
 }
 .sale-item > button {
@@ -116,13 +125,13 @@ padding-top: 10;
 
 				
 				<section id="deals">
-					<section class="sale-item">
+					<section class="sale-item-left">
 						
 							<p> <img src = "D22_147_003ar.jpg" height = 400 > 
 						
 			        	</section>
  					
-					<section class="sale-item"> 
+					<section class="sale-item-right"> 
 						
 							<br><br>
 						<p style="font-family:verdana;"><left><font size=7>Xuguang Simon Sheng </font> </p>
