@@ -62,6 +62,17 @@ padding-top: 10;
 .sale-item > button {
   margin-top: auto;     /* Auto top margin pushes button to bottom */
 }
+			.flex-container {
+  display: flex;
+  background-color: #AED6F1;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
 			
 		</style>
 	</head>
@@ -78,25 +89,18 @@ padding-top: 10;
 	<body>
 		<div id = "website">
 			<div id="deals">
-				<nav class="menu">
-				   <ul>
-				     <center>	
-				<section class="sale-item">
-				         <li><p style="font-family:verdana;"><font size=7><a href ="Sheng_CV.pdf">CV &nbsp; </a></font></p></li> 
-				</section> 
-				<section class="sale-item">
-					<li><p style="font-family:verdana;"><font size=7><a href ="https://www.american.edu/cas/faculty/sheng.cfm">&nbsp; University Webpage &nbsp; </a></font></p></li>
-				</section> 
-				<section class="sale-item">
-					<li><p style="font-family:verdana;"><font size=7><a href ="https://scholar.google.com/citations?user=sYN9wMAAAAAJ&hl=en&oi=ao">&nbsp; Google Scholar &nbsp;</a></font></p></li>
-				</section> 
-				<section class="sale-item">
-					<li><p style="font-family:verdana;"><font size=7><a href ="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1105148">&nbsp; SSRN Webpage</a></font></p></li>
-				</section> 	     
-				    </center>
-				  </ul>
-				</nav>
-			</div>
+				<div class="flex-container">
+				<div>
+				  <p style="font-family:verdana;"><font size=7><a href ="Sheng_CV.pdf">CV &nbsp; </a></font></p>
+				</div>
+				<div>
+				<p style="font-family:verdana;"><font size=7><a href ="https://www.american.edu/cas/faculty/sheng.cfm">&nbsp; University Webpage &nbsp; </a></font></p></div>
+				<div>
+				<p style="font-family:verdana;"><font size=7><a href ="https://scholar.google.com/citations?user=sYN9wMAAAAAJ&hl=en&oi=ao">&nbsp; Google Scholar &nbsp;</a></font></p></div>
+				<div>
+				<p style="font-family:verdana;"><font size=7><a href ="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1105148">&nbsp; SSRN Webpage</a></font></p></div>
+				
+			        </div>
 
 			<!-- <div class="row"> -->
 				
@@ -105,7 +109,7 @@ padding-top: 10;
 				<div id="deals">
 					<section class="sale-item">
 						
-							<p> <img src = "D22_147_003ar.jpg" height = 400 /> </p> 
+							<p> <img src = "D22_147_003ar.jpg" height = 400 > 
 						
 			        	</section>
  					
